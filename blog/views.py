@@ -3,12 +3,12 @@ from django.shortcuts import render
 posts = [
     {'author': 'author1',
      'title': 'title1',
-     'body': 'body1',
-     'date': 'asdfa'},
+     'content': 'body1',
+     'date_posted': 'date'},
     {'author': 'author2',
      'title': 'title2',
-     'body': 'body2',
-     'date': 'asdfa'}, ]
+     'content': 'body2',
+     'date_posted': 'date2'}, ]
 
 
 def home(request):
